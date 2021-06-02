@@ -14,3 +14,7 @@
 <b>LEGEND X (@LEGENDX22) A CODER AND HELPER AND FRIEND</b>
 <h1>#TEAMLEGEND</h1>
 </details>
+
+
+### BOT MADE BY 
+{COBRA} https://t.me/devil_darl_pro
