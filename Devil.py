@@ -29,9 +29,9 @@ pbot = Client("DEVIL", api_id=API_ID, api_hash=API_HASH, bot_token=token)
 BOT = str(botnickname) if botnickname else "DEVIL BOT"
 NAME = str(ALIVE_NAME) if ALIVE_NAME else "DEVIL BOY"
 PHOTO = os.environ.get("ALIVE_PHOTTO", None)
-DEVIL = "[DEVIL](https://t.me/LUCIFEERMORNINGSTAR)"
+DEVIL = "[DEVIL](https://t.me/devil_darl_pro)"
 VERSION = "3.1.5"
-REPO = "[DEVIL BOT](https://github.com/LUCIFEERMORNINGSTAR/DEVIL)"
+REPO = "[DEVIL BOT](https://github.com/T3AM-ALONE-FIGHTER/DEVIL_USERBOT)"
 PRO = bot.uid
 MASTER = f"[{NAME}](tg://user?id={PRO})"
 GROUP = "[SUPPORT GROUP](https://t.me/deviluserbot)"
