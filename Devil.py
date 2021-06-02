@@ -34,7 +34,7 @@ VERSION = "3.1.5"
 REPO = "[DEVIL BOT](https://github.com/T3AM-ALONE-FIGHTER/DEVIL_USERBOT)"
 PRO = bot.uid
 MASTER = f"[{NAME}](tg://user?id={PRO})"
-GROUP = "[SUPPORT GROUP](https://t.me/deviluserbot)"
+GROUP = "[SUPPORT GROUP](https://t.me/DEVIL_USERBOT_SUPPORT)"
 if __name__=="__main__":
   xbot.run_until_disconnected()
 
