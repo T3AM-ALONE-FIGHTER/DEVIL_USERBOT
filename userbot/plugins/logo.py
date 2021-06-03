@@ -14,16 +14,21 @@
    Or Reply To Font File, To write with that font.
 
 """
+import asyncio
 
-import glob
-import os
-import random
 import time
 
-from PIL import Image, ImageDraw, ImageFont
-from telethon.tl.types import InputMessagesFilterPhotos
+from datetime import datetime
 
-from . import *
+from .. import ALIVE_NAME, StartTime, CMD_HELP
+
+from ..utils import admin_cmd, sudo_cmd, edit_or_reply
+
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "LEGEND USER"
+
+
+
+
 
 
 @ultroid_cmd(pattern="logo ?(.*)")
